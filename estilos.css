@@ -31,3 +31,22 @@ li a{
 li a:hover{
     color: #133daa;
 }
+
+#formRegistro {
+    /*background-color: yellow;*/
+    height: 200px;
+    width: 100px;
+    margin: 100px 50%;
+}
+
+form input[type="text"], input[type="number"], input[type="email"], input[type="password"] {
+    border: 3px solid green;
+}
+
+form input[type="button"] {
+    transition: background-color .5s;
+}
+
+form input[type="button"]:hover {
+    background-color: blue;
+}
