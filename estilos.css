@@ -50,3 +50,35 @@ form input[type="button"] {
 form input[type="button"]:hover {
     background-color: blue;
 }
+*{
+margin:0;
+padding:0;
+}
+
+body{
+    background-color: rgb(209, 68, 97);
+}
+
+h1{
+color:black;
+font-size: 4em;
+text-align: center;
+}
+button{
+    color: rgb(126, 13, 111);
+    justify-content:right;
+    display:flex;
+    align-items: center;
+    margin-left:auto;
+    margin-right: 10%;
+    height: 30px;
+    width: 50px;
+    
+}
+form button[type="button"] {
+	transition: background-color.5s;
+}
+
+form button[type="button"]:hover {
+	background-color: blue;
+}
