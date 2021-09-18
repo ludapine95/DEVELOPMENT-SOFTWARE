@@ -82,3 +82,13 @@ form button[type="button"] {
 form button[type="button"]:hover {
 	background-color: blue;
 }
+/*Estilo para ubicar los controles en un buen lugar*/
+#contenedor{ 
+    position: fixed;
+    background-color: antiquewhite;
+    width: 250px;
+    top:150px;
+    right:0px;
+    
+    display: grid;
+}
